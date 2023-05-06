@@ -9,6 +9,8 @@
     <meta name="description" content="Pokedex">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/listagem.css">
 </head>
 
 <body>
@@ -19,8 +21,8 @@
             <div class="cards-pokemon">
 
                 <!--Card Pikachu-->
-                <div class="card-pokemon">
-                    <div class="card-top">
+                <div class="card-pokemon aberto">
+                    <div class="card-top tipo-eletrico">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
                             <span>#001</span>
@@ -53,7 +55,7 @@
 
                 <!--Card Bulbasaur-->
                 <div class="card-pokemon">
-                    <div class="card-top">
+                    <div class="card-top tipo-grama">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
                             <span>#002</span>
@@ -86,7 +88,7 @@
 
                 <!--Card Charmander-->
                 <div class="card-pokemon">
-                    <div class="card-top">
+                    <div class="card-top tipo-fogo">
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
                             <span>#003</span>
@@ -119,7 +121,7 @@
 
                 <!--Card Gyarados-->
                 <div class="card-pokemon">
-                    <div class="card-top">
+                    <div class="card-top tipo-agua">
                         <div class="detalhes">
                             <h2 class="nome">Gyarados</h2>
                             <span>#004</span>
@@ -152,14 +154,14 @@
 
                 <!--Card Gengar-->
                 <div class="card-pokemon">
-                    <div class="card-top">
+                    <div class="card-top tipo-trevas">
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
                             <span>#005</span>
                         </div>
                         <span class="tipo">Trevas</span>
                         <div class="card-img">
-                            <img src="imagens/cabeca-gengar.png" alt="Imagem do Pokemon">
+                            <img src="imagens/gengar.png" alt="Imagem do Pokemon">
                         </div>
                     </div>
                     <div class="card-info">
@@ -185,7 +187,7 @@
 
                 <!--Card Dagronite-->
                 <div class="card-pokemon">
-                    <div class="card-top">
+                    <div class="card-top tipo-dragao">
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
                             <span>#006</span>
@@ -209,7 +211,7 @@
                         <div class="habilidades">
                             <h3>Habilidades</h3>
                             <ul>
-                                <li>Danã do dragão</li>
+                                <li>Dança do dragão</li>
                                 <li>Velocidade extrema</li>
                             </ul>
                         </div>
@@ -221,7 +223,7 @@
             <!--Navegação entre cards-->
             <nav class="lista">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="imagens/cabeca-pikachu.png" alt="Imagem mini Pikachu">
                         <span>Pikachu</span>
                     </li>
@@ -252,10 +254,10 @@
     </main>
 
     <footer>
-        <p>Projeto desenvolvido junto ao <a href="https://www.youtube.com/@DevemDobro" target="_blank"
-                alt="Canal do Youtube "><strong>MapaDev </strong></a>Week e personalizado por <a
-                href="https://github.com/brunagafo" target="_blank" alt="Github Bruna Gafo"><strong>Bruna
-                    Gafo</strong></a></p>
+        <p>
+        Projeto desenvolvido junto ao <a href="https://www.youtube.com/@DevemDobro" target="_blank"
+        alt="Canal do Youtube "><strong>MapaDev </strong></a>Week e personalizado por <a href="https://github.com/brunagafo" target="_blank" alt="Github Bruna Gafo"><strong>Bruna Gafo</strong></a> - <a href="https://devemdobro.github.io/projeto-pokedex-mapadev-week/" target="_blank">(Acesse Projeto Original)</a>
+        </p>
     </footer>
 </body>
 
