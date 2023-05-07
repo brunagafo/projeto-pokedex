@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 100vh;;
+    height: 120vh;
     background-image:linear-gradient(to bottom, #87CEEB, #E0F6FF);
 }
 
@@ -31,6 +31,7 @@ ul {
 }
 
 footer {
+    padding: 20px;
     text-align: center;
 }
 
