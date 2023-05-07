@@ -1,0 +1,1 @@
+/*Esconder card de pokemon aberto e mostrar card selecionado*/
