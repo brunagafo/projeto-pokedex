@@ -24,12 +24,20 @@
         height: 230px;
     }
 
+    .card-top .tipo {
+        font-size: 12px;
+    }
+
+    .detalhes h2 {
+        font-size: 18px;
+    }
+
     .card-info {
         padding: 60px 15px 25px;
     }
 
     .card-info ul {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .lista {
